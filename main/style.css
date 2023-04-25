@@ -1,10 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins';
 }
 
 body {
@@ -12,7 +9,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #f7f7f7;
+  background-color: whitesmoke;
 }
 
 main {
@@ -34,6 +31,7 @@ input {
   border-radius: 5px;
   font-size: 20px;
   width: 100%;
+  font-family: arial;
 }
 
 button {
@@ -52,9 +50,10 @@ button i {
   margin-top: 10px;
   justify-content: space-between;
   word-break: break-word;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 img {
-  min-width: 120px;
+  min-width: 115px;
   background-image: radial-gradient(#b5b5b5, #f7f7f7 70%);
 }
